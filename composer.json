@@ -1,5 +1,5 @@
 {
-    "name": "drupal/ecommerce_cy",
+    "name": "drupal/jugaad_patches",
     "description": "An Module to display products and respective QR codes.",
     "type": "drupal-module",
     "license": "GPL-2.0-or-later",
