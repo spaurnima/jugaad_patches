@@ -1,0 +1,12 @@
+name: Jugaad Patches Products
+type: module
+description: 'This module helps you to add products in the list and QR code for the same.'
+package: Custom
+dependencies:
+  - drupal:block
+  - drupal:node
+  - drupal:text
+  - drupal:link
+  - drupal:path
+  - drupal:field
+core_version_requirement: ^8 || ^9

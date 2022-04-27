@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.products.body
+    - field.field.node.products.field_app_purchase_link
+    - field.field.node.products.field_image
+    - image.style.product_image_style
+    - node.type.products
+  module:
+    - image
+    - text
+    - user
+_core:
+  default_config_hash: LxW6ukzdMld7Wp2VxXieOub8kv_cxFwrNA_2npcL3Do
+id: node.products.default
+targetEntityType: node
+bundle: products
+mode: default
+content:
+  body:
+    type: text_trimmed
+    label: visually_hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: product_image_style
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_app_purchase_link: true
+  links: true

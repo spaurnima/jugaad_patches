@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - jugaad_patches
+    - node
+  theme:
+    - bartik
+_core:
+  default_config_hash: 2RpgQSaEjXjI5MlBKMUSxJTadiLh8DF7iT0yefZMRuY
+id: qrcodegeneration
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: qr_code_generation
+settings:
+  id: qr_code_generation
+  label: 'QR Code'
+  label_display: visible
+  provider: jugaad_patches
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      products: products

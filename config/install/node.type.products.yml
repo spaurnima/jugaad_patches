@@ -1,0 +1,19 @@
+uuid: d3605fd0-0a89-49bf-ab26-2fa514529c29
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: Ozhlu9Z8zafXqEYPzcysaY_wUEVrOlxkwOemM7MYDU0
+name: Products
+type: products
+description: 'Use Products to add Juggad Products in the list to display'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

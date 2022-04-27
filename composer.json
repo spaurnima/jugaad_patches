@@ -1,0 +1,18 @@
+{
+    "name": "drupal/ecommerce_cy",
+    "description": "An Module to display products and respective QR codes.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "composer/installers": "^1.9",
+        "drupal/core-composer-scaffold": "^9.3",
+        "drupal/core-project-message": "^9.3",
+        "drupal/core-recommended": "^9.3",
+        "endroid/qr-code": "^4.4",
+        "endroid/qrcode": "^4.4"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4",
+        "drupal/coder": "^8.3.10"
+    }
+}

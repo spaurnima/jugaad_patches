@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Install, and uninstall hooks for Jugaad Patches Module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function jugaad_patches_install() {
+  // Set homepage url.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/product-list')->save();
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function jugaad_patches_uninstall() {
+  // Unset homepage url.
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node/1')->save();
+}

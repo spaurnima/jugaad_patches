@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: product_image_style
+label: 'Product image Style'
+effects:
+  7cfb22a8-03f2-4925-b1c8-9c6b590d858a:
+    uuid: 7cfb22a8-03f2-4925-b1c8-9c6b590d858a
+    id: image_scale
+    weight: 1
+    data:
+      width: 3212
+      height: 4332
+      upscale: false
