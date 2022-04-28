@@ -17,7 +17,7 @@ plugin: qr_code_generation
 settings:
   id: qr_code_generation
   label: 'QR Code'
-  label_display: visible
+  label_display: '0'
   provider: jugaad_patches
 visibility:
   'entity_bundle:node':
